@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #dedede;
+  font-size: 1rem;
+}
+
+body{
+  background-color: #333333;
+  font-family: "Open Sans";
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  padding: 10px;
+}
+
+.search-bar{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.Linkit{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 61px;
+  font-size: 1.2rem;
+}
+
+.search-container{
+  position: relative;
+}
+
+.search-icon{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+input{
+  width: 140vh;
+  height: 5vh;
+  padding-left: 40px;
+  flex: 1 1 auto;
+  background-color: #252525;
+  outline-color: #dedede;
+}
+
+.toiminnot{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.toiminnot svg{
+  fill: #FFF;
+}
+
+svg{
+    height: 20px;
+    width: 20px;
+    fill: orangered;
+}
+
+
+.kolmas-blokki svg{
+  flex: 1;
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  padding: 5px;
+}
+
+a:link{
+  color: #dedede;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #dedede;
+}
+
+a:hover{
+  color: #ee6622;
+}
+
+.ensimmäinen-blokki{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+.myymälä-blokki{
+}
+
+footer{
+  padding: 25px 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  border-top: solid 70px #dedede;
+  font-size: 1.1rem;
+
+}
+
+footer svg{
+  height: 16px;
+  width: 16px;
+}
+
+.alapalkin-yläosa{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 18px;
+}
+
+.alapalkin-alaosa-blokki{
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: row;
+  border-top: solid 1px gray;
+  font-size: 1rem;
+}
+
+.alapalkki-otsikko{
+  text-transform: uppercase;
+}
+
+.Sertifikaatit_otsikko_teksti{
+  display: flex;
+  flex-direction: row;
+}
+
+.asiakaspalvelu_aukioloajat_aukioloaika{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.yritysmyynti_aukioloajat_pävät_avoinna{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.myymälän_aukioloajat_viikko{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.myymälän_aukioloajat_vklp{
+  display: flex;
+  flex-direction: row;
+  gap: 67px;
+ }
+
+.kuvake-blokki{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 200px;
+}
+
+button{
+  width: 20vh;
+  height: 3vh;
+  background-color: #ee6622;
+  border: none;
+  border-radius: 3px;
+  width: 150px; 
+  height: 35px;
+}
+
+.shop_teksti{
+padding-top: 10px;
+inline-size: 340px;
+}
+
+.sposti_kuvake{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.kolmas-blokki{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+.Sertifikaatit_otsikko_teksti{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  line-height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 242);
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.alapalkki-blokki{
+  flex: 1;
+}
+
+.yläpalkki-blokki{
+  flex: 1;
+}
+
+h1{
+  font-size: 1.7rem;
+  color: orangered;
+}
