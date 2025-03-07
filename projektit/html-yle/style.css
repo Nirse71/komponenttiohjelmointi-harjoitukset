@@ -23,10 +23,10 @@ header{
 }
 
 .yläpalkki{
-    padding: 10px 380px;
+    padding: 10px 395px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 200px;
     align-items: center;
     border-bottom: solid 1px #b8b8b8;
     font-size: 0.9rem;
@@ -91,6 +91,7 @@ a:link{
         background-color: rgb(0, 162, 255);
         color: white;
         display: flex;
+        border-radius: 8%;
         justify-content: center;
         align-items: center;
         font-size: 1.4rem;
@@ -179,12 +180,30 @@ a:link{
     width: 100%;
 }
 
+.uutinen_teksti h3{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.uutinen_teksti h2{
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+.uutinen_teksti h4{
+    font-weight: normal;
+    position: absolute;
+    margin-top: 350px;
+    font-size: 0.8rem;
+}
+
 .uutinen_teksti{
     display: flex;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5rem;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
     justify-content: center;
+
 }
 
 .pallo1 {
@@ -212,7 +231,7 @@ a:link{
 }
 
 .luetuimmat h2{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .sivun-keskiosa{
@@ -232,7 +251,7 @@ a:link{
 }
 
 .luetuimmat1, .luetuimmat2, .luetuimmat3, .luetuimmat4, .luetuimmat5{
-    padding: 1px 30px;
+    padding: 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -322,16 +341,30 @@ a:link{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 140px;
+    padding-bottom: 65px;
     background-color: white;
 }
 
 .uutisen_teksti_2{
     display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5rem;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.uutisen_teksti_2 h3{
+    font-size: 0.8rem;
+}
+
+.uutisen_teksti_2 h2{
+    font-size: 1.9rem;
+}
+
+.uutisen_teksti_2 h4{
+    font-weight: normal;
+    position: absolute;
+    margin-top: 260px;
+    font-size: 0.8rem;
 }
 
 .poliisiuutinen_kuva{
@@ -348,27 +381,50 @@ a:link{
     max-width: 300px;
 }
 
+.tuoreimmat-teksti{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 50px;
+    margin-right: -210px;
+}
+
+.tuoreimmat5{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 384px;
+    margin-left: 30px;
+}
+
+.tuoreimmat1, .tuoreimmat2, .tuoreimmat3, .tuoreimmat4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-left: solid 1px #b8b8b8;
+    padding: 0 30px;
+}
+
 .tuoreimmat h2{
     font-size: 0.9rem;
 }
 
-.kello1{
+.kello1, .kello2, .kello3, .kello4, .kello5{
     position: absolute;
-    margin-left: -50px;
+    margin-left: -51px;
+    margin-top: -3px;
+    border: solid 3px #eee;
+    background-color: #eee;
 }
 
-.kello2{
-    position: absolute;
-    margin-left: -50px;
-}
 
-.kello3{
-    position: absolute;
-    margin-left: -50px;
-}
 
 h1{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 .otsikko_tuoreimmat{
